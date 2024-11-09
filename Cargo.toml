@@ -1,0 +1,17 @@
+[package]
+name = "livox2-sys"
+version = "0.1.0"
+description = "A Rust wrapper for the Livox SDK2"
+authors = ["ZXY <3303057136@qq.com>"]
+categories = ["external-ffi-bindings"]
+license = "MIT"
+edition = "2021"
+
+build = "build.rs"
+links = "livox_lidar_sdk_static"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.70"
+cmake = "0.1"
