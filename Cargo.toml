@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "A Rust wrapper for the Livox SDK2"
 authors = ["ZXY <3303057136@qq.com>"]
 categories = ["external-ffi-bindings"]
+keywords = ["ffi", "livox", "lidar", "sdk"]
 license = "MIT"
 edition = "2021"
 
