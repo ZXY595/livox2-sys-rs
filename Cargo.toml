@@ -11,6 +11,8 @@ edition = "2021"
 build = "build.rs"
 links = "livox_lidar_sdk_static"
 
+repository = "https://github.com/ZXY595/livox2-sys-rs"
+
 [dependencies]
 
 [build-dependencies]
